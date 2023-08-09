@@ -40,6 +40,10 @@ a {
 }
 
 /*header*/
+.header {
+width: 100%;
+}
+
 .header__menu {
   display: flex;
   justify-content: space-between;
@@ -51,18 +55,9 @@ a {
   padding-bottom: 12px;*/
 }
 
-.header__menu {
-  display:flex;
-  width: 1200px;
-  /*color: #ffffff; */
-}
-
-.top__menu-logo {
-  margin-left: 70px;
-  }
-
 .menu {
 display: flex;
+margin-left: 70px;
 width: 345px;
 padding: 20px 17px;
 align-items: flex-start;
@@ -97,7 +92,6 @@ line-height: 26px; /* 130% */
   letter-spacing: normal;
   line-height: normal;
   text-align: center; */
-}
 
 .menu__link {
 font-family: PT Sans;
@@ -128,7 +122,7 @@ line-height: 36px; /* 120% */
 text-transform: uppercase;
 }
 
-.welcome  {
+.welcome__sedona  {
 width: 458px;
 height: 352px;
 flex-shrink: 0;
@@ -150,7 +144,7 @@ flex-shrink: 0;
   justify-content: space-between;
 }
 
-.header__container {
+.header__sedona {
   width: 720px;
   color: var(--basic-black, #000);
 text-align: center;
