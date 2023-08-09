@@ -39,15 +39,18 @@ a {
   text-decoration: none;
 }
 .top__menu {
+  display:flex;
   width: 1200px;
   color: #ffffff;
 }
 
 .top__menu-logo {
   margin-left: 70px;
-}
+  }
 
 .menu {
+display:flex;
+width: 345px;
 padding: 20px 17px 20px 17px;
  }
 
