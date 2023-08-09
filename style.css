@@ -54,6 +54,15 @@ width: 345px;
 padding: 20px 17px 20px 17px;
  }
 
+ .menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.menu__list-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .menu__link {
 font-family: PT Sans;
 font-size: 20px;
