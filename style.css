@@ -1,15 +1,15 @@
 @font-face {
-  font-family: "OpenSans";
-  src: local("OpenSans"),
-  url("./fonts/OpenSans-Regular.woff");
+  font-family: "PT Sans";
+  src: local("PT Sans"),
+  url("./fonts/PT Sans-Regular.woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "OpenSans";
-  src: local("OpenSans"),
-  url("./fonts/OpenSans-Bold.woff");
+  font-family: "PT Sans";
+  src: local("PT Sans"),
+  url("./fonts/PT Sans-Bold.woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -44,5 +44,21 @@ a {
 }
 
 .top__menu-logo {
-  width: 139px;
+  margin-left: 70px;
+  /*width: 139px;*/
+}
+
+.menu {
+padding: 20px 17px 20px 17px;
+ }
+
+.menu__link {
+font-family: PT Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 130% */
+padding-left: 34px;
+color: inherit;
+text-decoration: none;
 }
