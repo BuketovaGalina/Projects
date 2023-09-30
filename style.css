@@ -145,10 +145,10 @@ line-height становятся бессмысленными. font-size все�
  настроек браузера,
  а значит и относительное значение в line-height никогда не изменится.*/
 .navigation-link {
-  /*font-family: PT Sans Narrow, ;
+  font-family: PT Sans sans-serif;
   line-height: 26px; /*Ф*/
-  /*font-size: 20px;  /*Ф*/
-  /*font-weight: 700;  /*Ф*/
+  font-size: 20px;  /*Ф*/
+  font-weight: 700;  /*Ф*/
   text-align: center;
   color: #000000; */
   background-color: #ffffff;
