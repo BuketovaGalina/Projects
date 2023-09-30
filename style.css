@@ -94,18 +94,18 @@ h4 {
   background: #ffffff;
 }
 
-.navigation {
-  display: flex;
-  width: 1200px; /*Ф*/
-  margin: 0 auto;
-  }
-
 .navigation-logo {
 margin-left: 70px;
 flex-shrink: 0;
 width: 139px;
 height: 70px;
 }
+
+.navigation {
+  display: flex;
+  width: 1200px; /*Ф*/
+  margin: 0 auto;
+  }
 
 /*Обнуляем отступы- см у нас звездочкой вверху уже задано*/
 .navigation-list {
