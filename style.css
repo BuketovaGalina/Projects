@@ -100,6 +100,7 @@ margin-left: 70px;
 flex-shrink: 0;
 width: 139px;
 height: 70px;
+margin-left: 30px;
 }
 
 .navigation {
@@ -138,6 +139,7 @@ line-height становятся бессмысленными. font-size все�
 .navigation-user {
   max-width: 264px; /*Ф*/
   margin-left:auto;
+  margin-right: 70px;
 }
 
 /*main*/
