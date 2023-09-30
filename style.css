@@ -90,6 +90,7 @@ h4 {
 /*header*/
 /*фоновый цвет и сразу цвет текста для шапки*/
 .page-header {
+  display: flex;
   color: #ffffff;
   background: #ffffff;
 }
