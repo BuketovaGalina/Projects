@@ -118,7 +118,8 @@ flex-shrink: 0;
   display: flex;
   justify-content: space-between;
   width: 1200px; /*Ф*/
-  /*margin: 0 auto; */
+  align-items: center;
+  background-color: red;
   }
 
 /*Обнуляем отступы- см у нас звездочкой вверху уже задано*/
@@ -150,7 +151,7 @@ line-height становятся бессмысленными. font-size все�
   font-size: 20px;  /*Ф*/
   font-weight: 700;  /*Ф*/
   text-align: center;
-  color: #000000; 
+  color: #000000;
   background-color: #ffffff;
   text-decoration: none;
   }
@@ -173,7 +174,7 @@ line-height становятся бессмысленными. font-size все�
 }
 
 h1 {
-  /*уточнить размер шрифта*/
+  /*уточнить размер шрифта -неважно, он все равно не виден*/
   font-family: PT Sans sans-serif;
   font-size: 44x;
   line-height: 32px;
