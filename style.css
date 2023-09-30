@@ -35,7 +35,7 @@ htmhl {
      display: flex;
     flex-direction: column;
     min-height: 100%;
-      font-family: "PT Sans" sans-serif;
+         font-family: PT Sans sans-serif;
       font-size: 18px;
       line-height: 21px; /*Ф*/
       color: #ffffff;/*Ф всегда указываем контрастный цвет*/
@@ -62,7 +62,7 @@ htmhl {
   }
 
 h2 {
-  font-family: "PT Sans" sans-serif;
+  font-family: PT Sans sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -72,7 +72,7 @@ h2 {
 }
 
 h3 {
-  font-family: "PT Sans" sans-serif;
+  font-family: PT Sans sans-serif;
   font-size: 24x;
   line-height: 32px;
   color: #ffffff;
@@ -80,7 +80,7 @@ h3 {
 }
 
 h4 {
-  font-family: "PT Sans" sans-serif;
+  font-family: PT Sans sans-serif;
   font-size: 24x;
   line-height: 32px;
   color: #000000;
@@ -121,13 +121,13 @@ line-height становятся бессмысленными. font-size все�
  настроек браузера,
  а значит и относительное значение в line-height никогда не изменится.*/
 .navigation-link {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: PT Sans Narrow, sans-serif;
   line-height: 26px; /*Ф*/
   font-size: 20px;  /*Ф*/
   font-weight: 700;  /*Ф*/
   text-align: center;
-  color: #FFFFFF;
-  background-color: #FFFFFF;
+  color: #000000;
+  background-color: #000000;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -150,7 +150,7 @@ line-height становятся бессмысленными. font-size все�
 
 h1 {
   /*уточнить размер шрифта*/
-  font-family: "PT Sans" sans-serif;
+  font-family: PT Sans sans-serif;
   font-size: 44x;
   line-height: 32px;
   color: #ffffff;
@@ -227,7 +227,7 @@ h1 {
 .catalog-filter-title {
   width: 150px;
   color: #ffffff;
-  font-family: PT Sans;
+  font-family: PT Sans sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
